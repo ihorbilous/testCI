@@ -88,19 +88,6 @@ jobs:
           - iOS # Build an iOS player.
           - Android # Build an Android .apk standalone app.
     steps:
-      - name: GetVersion
-        run: echo "::set-output name=VERSION::$(grep -hnr "bundleVersion" ProjectSettings/ProjectSettings.asset |sed 's/.* //')"
-        id: version
-      - uses: rtCamp/action-slack-notify@v2
-        if: always()
-        env:
-          SLACK_CHANNEL: general
-          SLACK_COLOR: '#4287f5' # or a specific color like 'good' or '#ff00ff'
-          SLACK_ICON: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fvirginiaestrell%2Fgithub%2F&psig=AOvVaw19-3nwF60bXdXfNBjannJV&ust=1630065054878000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCrzNbPzvICFQAAAAAdAAAAABAD
-          SLACK_MESSAGE: 'BUILD STARTED:rocket: ${{ github.actor }} building for ${{ matrix.targetPlatform }} '
-          SLACK_TITLE: 'BUILD ROUTINE STARTED: ${{ matrix.targetPlatform }}'
-          SLACK_USERNAME: Ihor The Builder
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -116,8 +103,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
         with:
-          versioning: Custom
-          version: ${{steps.version.outputs.VERSION}}
+
           androidAppBundle: false
           androidKeystoreName: pickatale.keystore
           androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
@@ -130,7 +116,6 @@ jobs:
         with:
           name: Build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
-      - uses: rtCamp/action-slack-notify@v2
         if: always()
         env:
           SLACK_CHANNEL: general
