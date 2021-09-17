@@ -1,0 +1,144 @@
+name: Pickatale CI -> (PC|Mac|Android|iOS)
+
+on: [push, pull_request]
+
+jobs:
+  notifySlackAboutWorkflowStart:
+    name: Send startup notification
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: '#4287f5' # or a specific color like 'good' or '#ff00ff'
+          SLACK_ICON: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fvirginiaestrell%2Fgithub%2F&psig=AOvVaw19-3nwF60bXdXfNBjannJV&ust=1630065054878000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCrzNbPzvICFQAAAAAdAAAAABAD
+          SLACK_MESSAGE: 'CHECK STARTED:rocket: Actor: ${{ github.actor }}  '
+          SLACK_TITLE: 'CHECK INIT'
+          SLACK_USERNAME: Ihor The DevOps
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  testAllModes:
+    name: Test in ${{ matrix.testMode }}
+    runs-on: ubuntu-latest
+    needs: notifySlackAboutWorkflowStart
+    strategy:
+      fail-fast: false
+      matrix:
+        projectPath:
+          -  
+        testMode:
+          - playmode
+          - editmode
+    steps:
+      - uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: '#4287f5' # or a specific color like 'good' or '#ff00ff'
+          SLACK_ICON: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fvirginiaestrell%2Fgithub%2F&psig=AOvVaw19-3nwF60bXdXfNBjannJV&ust=1630065054878000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCrzNbPzvICFQAAAAAdAAAAABAD
+          SLACK_MESSAGE: 'TEST STARTED:rocket: ${{ github.actor }} testing for ${{ matrix.testMode }} '
+          SLACK_TITLE: 'TEST ROUTINE STARTED'
+          SLACK_USERNAME: Ihor The Tester
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      - uses: actions/checkout@v2
+        with:
+          lfs: true
+      - run: git lfs pull
+      - uses: actions/cache@v2
+        with:
+          path: ${{ matrix.projectPath }}/Library
+          key: Library-${{ matrix.projectPath }}
+          restore-keys: |
+            Library-
+      - uses: game-ci/unity-test-runner@v2
+        id: tests
+        env:
+         UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+         UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+         UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          projectPath: ${{ matrix.projectPath }}
+          testMode: ${{ matrix.testMode }}
+          artifactsPath: ${{ matrix.testMode }}-artifacts
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          checkName: ${{ matrix.testMode }} Tl st Results
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: Test results for ${{ matrix.testMode }}
+          path: ${{ steps.tests.outputs.artifactsPath }}
+      - uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+          SLACK_ICON: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fvirginiaestrell%2Fgithub%2F&psig=AOvVaw19-3nwF60bXdXfNBjannJV&ust=1630065054878000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCrzNbPzvICFQAAAAAdAAAAABAD
+          SLACK_MESSAGE: 'TEST FINISHED:rocket: ${{ github.actor }} testing for ${{ matrix.testMode }} '
+          SLACK_TITLE: 'TEST ROUTINE FINISHED: ${{job.status}}'
+          SLACK_USERNAME: Ihor The Tester
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  
+  buildForAllSupportedPlatforms:
+    name: Build for ${{ matrix.targetPlatform }}
+    runs-on: ubuntu-latest
+    needs: testAllModes
+    strategy:
+      fail-fast: false
+      matrix:
+        targetPlatform:
+          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
+          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+          - iOS # Build an iOS player.
+          - Android # Build an Android .apk standalone app.
+    steps:
+      - name: GetVersion
+        run: echo "::set-output name=VERSION::$(grep -hnr "bundleVersion" ProjectSettings/ProjectSettings.asset |sed 's/.* //')"
+        id: version
+      - uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: '#4287f5' # or a specific color like 'good' or '#ff00ff'
+          SLACK_ICON: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fvirginiaestrell%2Fgithub%2F&psig=AOvVaw19-3nwF60bXdXfNBjannJV&ust=1630065054878000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCrzNbPzvICFQAAAAAdAAAAABAD
+          SLACK_MESSAGE: 'BUILD STARTED:rocket: ${{ github.actor }} building for ${{ matrix.targetPlatform }} '
+          SLACK_TITLE: 'BUILD ROUTINE STARTED: ${{ matrix.targetPlatform }}'
+          SLACK_USERNAME: Ihor The Builder
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          lfs: true
+      - uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}
+          restore-keys: Library-
+      - uses: game-ci/unity-builder@v2
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          versioning: Custom
+          version: ${{steps.version.outputs.VERSION}}
+          androidAppBundle: false
+          androidKeystoreName: pickatale.keystore
+          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+          targetPlatform: ${{ matrix.targetPlatform }}
+          customParameters: -stackTraceLogType FULL -silent-crashes
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Build-${{ matrix.targetPlatform }}
+          path: build/${{ matrix.targetPlatform }}
+      - uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_CHANNEL: general
+          SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+          SLACK_ICON: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fvirginiaestrell%2Fgithub%2F&psig=AOvVaw19-3nwF60bXdXfNBjannJV&ust=1630065054878000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCrzNbPzvICFQAAAAAdAAAAABAD
+          SLACK_MESSAGE: 'BUILD FINISHED:rocket: ${{ github.actor }} building for ${{ matrix.targetPlatform }}'
+          SLACK_TITLE: 'BUILD ROUTINE FINISHED: ${{ matrix.targetPlatform }}: ${{job.status}}'
+          SLACK_USERNAME: Ihor The Builder
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
