@@ -31,6 +31,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
         with:
+          versioning: None
           targetPlatform: ${{ matrix.targetPlatform }}
           customParameters: -stackTraceLogType FULL -silent-crashes
       - uses: actions/upload-artifact@v2
