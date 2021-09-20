@@ -79,6 +79,15 @@ public class MainContextInput : MainContextRoot
 
     public void UpdateInput()
     {
+
+
+        if (!showDebugPanel)
+        {
+            dispatcher.Dispatch(EventGlobal.E_ShowScreen, "DebugScreen");
+            showDebugPanel = true;
+        }
+
+
         ProcessInputEvents();
 
 #if UNITY_EDITOR
