@@ -1,0 +1,169 @@
+,en,en,no,nn-no,zh,th,da
+empty,English,British,Norwegian,NyNorsk,Chinese,Thai,Danish
+ui.language,Language,Language,Språk,Språk,语,ภาษา,Sprog
+ui.myprofile,My Profile,My Profile,Min profil,Min profil,我的档案,โปรไฟล์ของฉัน,Min profil
+ui.settings,Settings,Settings,Innstillinger,Innstillinger,设置,การตั้งค่า,Indstillinger
+ui.logout,Log Out,Log Out,Logg ut,Logg ut,注销,ออกจากระบบ,Log ud
+ui.interests,Categories,Categories,Kategorier,Kategorier,类别,หมวดหมู่,Kategorier
+ui.level,Level,Level,Nivå,Nivå,级别,ระดับ,Niveau
+ui.search.Category,Category,Category,Kategori,Kategori,类别,ประเภท,Kategori
+ui.Hour,hour,hour,time,time,小时,ชั่วโมง,time
+ui.Minute,minute,minute,minutt,minutt,分钟,นาที,minut
+ui.Stars,Stars,Stars,Stjerner,Stjerner,星星,ดวงดาว,Stjerner
+ui.BooksRead,Books read,Books read,Bøker lest,Bøker lest,已阅读的书籍,หนังสือที่อ่าน,Læste bøger
+ui.Homeworks,Assignments,Assignments,Lekser,Lekser,作业,ภารกิจรับมอบหมาย,Opgaver
+ui.ReadingTime,Reading Time,Reading Time,Lesetid,Lesetid,阅读时间,เวลาอ่านหนังสือ,Læsetid
+ui.FavoriteWords,Favorite Words,Favourite Words,Favorittord,Favorittord,最喜欢的词汇,คำที่โปรดปราน,Foretrukne ord
+ui.Clicks,Clicks,Clicks,Klikk,Klikk,点击,คลิก,Klik
+ui.QUIZStatistics,QUIZ Results,QUIZ Results,QUIZ-statistikk,QUIZ-statistikk,测试结果,ผลทดสอบ,QUIZ-resultater
+ui.MyFavoriteBooks,Most read books,Most read books,Mest leste bøker,Mest leste bøker,读得最多的书,หนังสืออ่านมากที่สุด,Mine favoritbøger
+ui.homeworks.myHomeworks,My Assignments,My Assignments,Leksene mine,Leksene mine,我的作业,ภารกิจรับมอบหมายของฉัน,Mine opgaver
+ui.homeworks.finishedHomeworks,Latest Completed Assignments,Latest Completed Assignments,Siste ferdige lekser,Siste ferdige lekser,最近完成的作业,การบ้านที่เสร็จล่าสุด,Sidst færdige lektier
+ui.homeworks.doneHomeworks,Assignments Done,Assignments Done,Utførte lekser,Utførte lekser,作业完成,ภารกิจรับมอบหมายที่เสร็จแล้ว,Fuldførte opgaver
+ui.homeworks.spentTime,Time Spent,Time Spent,Tidsbruk,Tidsbruk,所用时间,เวลาที่ใช้,Tidsforbrug
+ui.homeworks.sorryNoDone,You still have assignments to do!,You still have assignments to do!,Du har fortsatt oppdrag å gjøre!,Du har fortsatt oppdrag å gjøre!,你还有作业！,คุณยังมีการมอบหมายให้ทำ!,Du har stadig opgaver til at gøre!
+ui.homeworks.SorryNoActive,Well done! You have completed all your assignments!,Well done! You have completed all your assignments!,Hurra! Du har ingen uferdige lekser.,Hurra! Du har ingen uferdige lekser.,恭喜您！您完成了所有的作业！,ดีมาก! คุณทำภารกิจที่รับมอบหมายเสร็จหมดแล้ว!,Godt klaret! Du har fuldført alle dine opgaver!
+ui.homeworks.TestingMode,Quiz,Quiz,Quiz,Quiz,测试,การทดสอบ,Quiz
+ui.homeworks.ReadOnlyMode,Read Only,Read Only,Les selv,Les selv,只读,อ่านเท่านั้น,Læs kun
+ui.homework.dateOfCreation,Date of creation,Date of creation,Dato for opprettelse,Dato for opprettelse,创建日期,วันที่สร้าง,Oprettelsesdato
+ui.homeworks.noHomeworkYet,You haven’t got any assignments yet ,You haven’t got any assignments yet ,Du har ikke noen oppgaver ennå,Du har ikke noen oppgaver ennå,您還沒有任何作業,คุณยังไม่ได้รับงานใด ๆ,Du har ikke nogen opgaver endnu
+ui.homeworks.welcome,"Welcome to Pickatale for Schools! We have created this app especially for you.  
+Enjoy reading! ","Welcome to Pickatale for Schools! We have created this app especially for you.  
+Enjoy reading! ","Velkommen til Pickatale for Schools! Vi har laget denne appen spesielt for deg.
+Liker å lese!","Velkommen til Pickatale for Schools! Vi har laget denne appen spesielt for deg.
+Liker å lese!","歡迎來到學校Pickatale！ 我們已經為您創建了這個程序。
+享受閱讀！","ยินดีต้อนรับสู่ Pickatale สำหรับโรงเรียน! เราได้สร้างแอพนี้สำหรับคุณโดยเฉพาะ
+สนุกกับการอ่าน!","Velkommen til Pickatale for Schools! Vi har oprettet denne app specielt til dig.
+Nyd at læse!"
+ui.Min,min,min,min,min,分钟,นาที,min
+ui.writer,Writer,Writer,Forfatter,Forfatter,作者,ผู้เขียน,Forfatter
+ui.narrator,Narrator,Narrator,Forteller,Forteller,叙述者,ผู้บรรยาย,Fortæller
+ui.illustrator,Illustrator,Illustrator,Illustratør,Illustratør,插图画家,ผู้วาดภาพประกอบ,Illustrator
+ui.mode,Mode,Mode,Modus,Modus,模式,โหมด,Tilstand
+ui.deadline,Deadline,Deadline,Frist,Frist,最后期限,เส้นตาย,Deadline
+ui.CurrentWeek,Current week,Current week,Inneværende uke,Inneværende uke,本星期,สัปดาห์ปัจจุบัน,Denne uge
+ui.OneWeekAgo,1 week ago,1 week ago,1 uke siden,1 uke siden,1 星期前,1 สัปดาห์ที่แล้ว,For 1 uge siden
+ui.TwoWeekAgo,2 weeks ago,2 weeks ago,2 uker siden,2 uker siden,2 星期前,2 สัปดาห์ที่แล้ว,For 2 uger siden
+ui.ThreeWeekAgo,3 weeks ago,3 weeks ago,3 uker siden,3 uker siden,3 星期前,3 สัปดาห์ที่แล้ว,For 3 uger siden
+ui.MonthAgo,1 month ago,1 month ago,1 måned siden,1 måned siden,1 个月前,1 เดือนที่แล้ว,For 1 måned siden
+ui.search.noDownloads,You haven’t downloaded any books yet,You haven’t downloaded any books yet,Du har ikke lastet ned noen bøker ennå,Du har ikke lastet ned noen bøker ennå,您尚未下載任何書籍,คุณยังไม่ได้ดาวน์โหลดหนังสือใด ๆ,Du har ikke downloadet nogen bøger endnu
+ui.search.noFavourites,You have no favorite books yet,You have no favourite books yet,Du har ingen favorittbøker ennå,Du har ingen favorittbøker ennå,您還沒有喜歡的書,คุณยังไม่มีหนังสือเล่มโปรด,Du har ikke nogen yndlingsbøger endnu
+ui.search.NoResult,"Sorry, there are no books that match your search. Please try again.","Sorry, there aren't any books which match your search. Please try again.","Beklager, ingen bøker matcher søket. Vennligst prøv igjen.","Beklager, ingen bøker matcher søket. Vennligst prøv igjen.",抱歉，没有符合您的搜索的书籍。请重试。,ขออภัย ไม่มีหนังสือตรงกับที่คุณค้นหา โปรดลองอีกครั้ง,"Beklager, ingen bøger matcher din søgning. Prøv igen."
+ui.myProfile.sorryNoMostClick,You haven't found any words yet,You haven't found any words yet,Du har ikke valgt noen ord ennå,Du har ikke valgt noen ord ennå,您还没有找到任何词汇,คุณยังไม่พบคำใด ๆ,Du har ikke fundet nogen ord endnu
+ui.myProfile.connectToClass,Connect to a new class,Connect to a new class,Koble til den nye klassen,Koble til den nye klassen,加入新的课程,เชื่อมต่อไปที่ชั้นเรียนใหม่,Deltag i ny klasse
+ui.myProfile.completedHomework,Completed assignment,Completed assignment,Fullførte lekser,Fullførte lekser,已完成的作业,ภารกิจรับมอบหมายที่เสร็จสมบูรณ์แล้ว,Opgaven fuldført
+ui.myProfile.myClasses,My Classes,My Classes,Timene mine,Timene mine,我的课程,ชั้นเรียนของฉัน,Mine klasser
+ui.myProfile.sorryNoMostReady,You haven't read any books yet,You haven't read any books yet,Du har ikke lest noen bøker ennå,Du har ikke lest noen bøker ennå,您还未阅读过任何书籍,คุณยังไม่ได้อ่านหนังสือใด ๆ,Du har ikke læst nogen bøger endnu
+ui.menu.recommendedBooks,Recommended Books,Recommended Books,Anbefalte bøker,Anbefalte bøker,推荐书目,หนังสือแนะนำ,Anbefalede bøger
+ui.quizFinalPopup.greatJob,Excellent!,Excellent!,Flott!,Flott!,太棒了！,เยี่ยม!,Fremragende!
+ui.quizFinalPopup.keepTrying,Almost There!,Almost There!,Bra forsøk,Bra forsøk,就快到了！,จวนแล้ว!,Næsten færdig!
+ui.quizFinalPopup.wellDone,Keep Trying!,Keep Trying!,Prøv igjen,Prøv igjen,继续努力!,พยายามต่อไป!,Prøv igen!
+ui.quizFinalPopup.youHaveEarned,You have won,You have won,Du har opptjent,Du har opptjent,您获胜,คุณได้คะแนน,Du har vundet
+ui.continue,Continue,Continue,Fortsett,Fortsett,继续,ทำต่อ,Fortsæt
+ui.done,Done,Done,Ferdig,Ferdig,完成,เสร็จแล้ว,Færdig
+ui.downloaded,My Library,My Library,Mitt Bibliotek,Mitt Bibliotek,我的图书馆,ห้องสมุดของฉัน,Mit Bibliotek
+ui.favorite,Favorite,Favourite,Favoritt,Favoritt,收藏,รายการโปรด,Favorit
+ui.statistics,Statistics,Statistics,Statistikk,Statistikk,结果,ผล,Resultater
+ui.pause,Pause,Pause,Pause,Pause,暂停,หยุดชั่วคราว,Pause
+ui.AnimatedBook.AwesomAnimation,Awesome animation!,Amazing animation!,Fantastisk animasjon!,Fantastisk animasjon!,帅气的动画!,ภาพเคลื่อนไหวดีเลิศ!,Fantastisk animation!
+ui.AnimatedBook.WatchAgain,Watch again,Watch again,Se igjen,Se igjen,再看一遍,ดูอีกครั้ง,Se igen
+ui.AnimatedBook.BackToBooks,Back to the books,Back to the books,Tilbake til biblioteket,Tilbake til biblioteket,回到书籍,กลับไปที่หนังสือ,Tilbage til bøgerne
+ui.SongBook.GreatSong,Great Song!,Great Song!,Fin sang!,Fin sang!,好歌！,เพลงเพราะ!,Fantastisk sang!
+ui.SongBook.ListenAgain,Listen Again,Listen Again,Lytt igjen,Lytt igjen,再听一遍,ฟังอีกครั้ง,Lyt igen
+ui.Notice,Notice,Notice,Obs!,Obs!,通知,ประกาศ,Meddelelse
+ui.Ok,OK,OK,OK,OK,确定,ตกลง,OK
+ui.AppExitText,Are you sure you want to exit the app ?,Are you sure you want to exit the app ?,Er du sikker på at du vil avslutte programmet?,Er du sikker på at du vil avslutte programmet?,您确定要退出应用吗？,คุณยืนยันที่จะออกจากแอปหรือไม่,"Er du sikker på, du vil afslutte?"
+ui.Exit,Exit,Exit,Avslutt,Avslutt,退出,ออก,Afslut
+ui.Error.Feide.Unknown,"Oops, something went wrong. Please try again.","Oops, something went wrong. Please try again.","Beklager, noe gikk galt. Vennligst prøv igjen.","Beklager, noe gikk galt. Vennligst prøv igjen.",哎呀，出了点问题。请再试一次。,อุ๊บ! มีข้อผิดพลาด โปรดลองอีกครั้ง,Noget gik galt! Prøv igen.
+ui.Error.Feide.YOUR_SCHOOL_GROUPS_IS_EMPTY,"Sorry, but seems like you are not part of any groups","Sorry, but seems like you are not part of any groups","Beklager, men det virker som om du ikke er en del av noen grupper",,抱歉，您似乎不屬於任何群組,ขออภัย แต่ดูเหมือนว่าคุณไม่ได้เป็นส่วนหนึ่งของกลุ่มใด ๆ,"Beklager, men det ser ud til, at du ikke er en del af nogen grupper"
+ui.Error.Feide.YOU_NEED_TO_BE_STUDENT,"Sorry, but you need a Student account to login.","Sorry, but you need a Student account to login.","Beklager, men du trenger en elevkonto for å logge på","Beklager, men du trenger en elevkonto for å logge på",抱歉，您需要用学生账户才能登录。,ขออภัย คุณต้องมีบัญชีนักเรียนถึงจะเข้าระบบได้,"Beklager, men du skal have en elevkonto for at logge ind."
+ui.Error.Feide.YOUR_SCHOOL_ISNT_IN_WHITE_LIST,"Sorry, your school does not have access to our app. Please contact your school administrator","Sorry, your school does not have access to our app. Please contact your school administrator","Beklager, skolen din har ikke tilgang. Vis denne meldingen til læreren din.","Beklager, skolen din har ikke tilgang. Vis denne meldingen til læreren din.",对不起，您的学校没有访问我们的应用的权限。请联系您学校的管理员,ขออภัย โรงเรียนของคุณไม่มีการเข้าถึงแอปของเรา โปรดติดต่อธุรการโรงเรียนของคุณ,"Beklager, din skole har ikke adgang til vores app. Kontakt din skoleadministrator"
+ui.Error,Error,Error,Feil,Feil,错误,ผิดพลาด,Fejl
+ui.Error.ConnectClass.Unknown,Something went wrong. Please try again.,Something went wrong. Please try again.,Noe gikk galt. Vær snill og prøv igjen,Noe gikk galt. Vær snill og prøv igjen,出错啦，请重试。,มีบางอย่างผิดพลาด โปรดลองอีกครั้ง,Noget gik galt. Prøv igen.
+ui.Error.ConnectClass.CLASS_NOT_EXISTS,Incorrect class code.,Incorrect class code.,Feil klassekode,Feil klassekode,课程邀请码不正确。,รหัสชั้นเรียนไม่ถูกต้อง,Forkert klassekode.
+ui.Error.EmptyField,Must not be left blank,Must not be left blank,Må fylles ut,Må fylles ut,必填,จำเป็น,Skal udfyldes
+ui.LogoutDescription,Are you sure you want to log out?,Are you sure you want to log out?,Er du sikker på at du vil logge ut?,Er du sikker på at du vil logge ut?,你确定要注销吗？,คุณยืนยันที่จะออกจากระบบหรือไม่,"Er du sikker på, du vil logge af?"
+ui.SubscribtionFailed,Sorry your subscription failed,Sorry your subscription failed,Beklager noe gikk galt med abonnementet ditt,Beklager noe gikk galt med abonnementet ditt,对不起，订阅失败,ขออภัย การสมัครสมาชิกของคุณไม่่อ่าน,"Beklager, dit abonnement virker ikke"
+ui.SubscribtionNotConfirmed,"Sorry, your subscription is not confirmed!","Sorry, your subscription is not confirmed!","Beklager, abonnementet ditt ble ikke bekreftet","Beklager, abonnementet ditt ble ikke bekreftet",抱歉，我们未能确认您的订阅！,ขออภัย การสมัครสมาชิกของคุณยังไม่ยืนยัน,"Beklager, dit abonnement er ikke bekræftet!"
+ui.login.here, here, here, her, her,这里, ที่นี่,her
+ui.login.passwordErrorHelpTeacher,"If you have forgotten your password, you can change it","If you have forgotten your password, you can change it","Hvis du har glemt passordet ditt, kan du endre det","Hvis du har glemt passordet ditt, kan du endre det",如果您忘记了您的密码，您可以更改密码,หากคุณลืมรหัสผ่าน คุณสามารถเปลี่ยนรหัสผ่านได้,"Hvis du har glemt din adgangskode, kan du ændre den"
+ui.login.passwordSymbolError,Password must be at least six characters,Password must be at least six characters,Passordet må inneholde minst seks tegn,Passordet må inneholde minst seks tegn,密碼必須至少六個字符,รหัสผ่านต้องมีอย่างน้อยหกตัวอักษร,Adgangskoden skal indeholde mindst seks tegn
+ui.login.passwordErrorHelp,"If you have forgotten your password, please ask your teacher for it.","If you have forgotten your password, please ask your teacher for it.","Hvis du har glemt passordet ditt, kan du be læreren din om det.","Hvis du har glemt passordet ditt, kan du be læreren din om det.",如果您忘记了密码，请向您的教师求助。,ถ้าคุณลืมรหัสผ่านโปรดถามคุณครูของคุณ,"Hvis du har glemt din adgangskode, skal du bede din lærer om den."
+ui.login.errorEmptyPassword,Enter Password,Enter Password,Oppgi passord,Oppgi passord,请输入密码,ใส่รหัสผ่าน,Angiv adgangskode
+ui.login.errorEmptyLogin,Enter Username,Enter Username,Skriv inn brukernavn,Skriv inn brukernavn,请输入用户名,ใส่ชื่อผู้ใช้,Indtast brugernavn
+ui.login.errorIncorrectPassword,Incorrect Password,Incorrect Password,Feil passord,Feil passord,密码错误,รหัสผ่านไม่ถูกต้อง,Adgangskode ikke korrekt
+ui.login.errorWrongPassword,Wrong Password,Wrong Password,Feil passord,Feil passord,密码错误,รหัสผ่านผิด,Forkert adgangskode
+ui.login.errorUnknown,Unknown Error,Unknown Error,Ukjent feil,Ukjent feil,未知错误,ข้อผิดพลาดไม่ทราบสาเหตุ,Ukendt fejl
+ui.login.loginPlaceholder,Enter or Create your Username,Enter or Create your Username,Skriv inn eller opprett ditt brukernavn,Skriv inn eller opprett ditt brukernavn,请输入您的用户名,ใส่ชื่อผู้ใช้ของคุณ,Indtast eller opret brugernavn
+ui.login.orLoginWith,or Login With,or Login With,eller logg inn med,eller logg inn med,其他登录方法,หรือล็อกอินด้วย,eller log ind med
+ui.login.signIn,Login,Login,Logg Inn,Logg Inn,登录,ล็อกอิน,Login
+ui.login.back,Back,Back,Tilbake,Tilbake,后退,กลับ,Tilbage
+ui.login.iAmStudent,I am a Student,I am a Student,Jeg er elev,Jeg er elev,我是一名学生,ฉันเป็นนักเรียน,Jeg er studerende
+ui.login.iAmTeacher,I am a Teacher,I am a Teacher,Jeg er lærer,Jeg er lærer,我是老师,ฉันเป็นครู,Jeg er lærer
+ui.login.regularLogin,Regular login,Regular login,Logg inn uten Feide,Logg inn uten Feide,定期登录,เข้าสู่ระบบปกติ,Regelmæssig login.
+ui.login.feideTitleText,Glad to see you!,Glad to see you!,Velkommen,Velkommen,很高兴见到你！,ยินดีที่ได้พบคุณ!,Glad for at se dig!
+ui.login.feideTitleDescription,"To log in and start using our app, please choose your login method!","To log in and start using our app, please choose your login method!","For å logge inn og begynne å bruke vår app, velg påloggingsmetode!","For å logge inn og begynne å bruke vår app, velg påloggingsmetode!",要登录并开始使用我们的应用程序，请选择您的登录方式！,ในการเข้าสู่ระบบและเริ่มใช้แอพของเราโปรดเลือกวิธีการเข้าสู่ระบบของคุณ!,"For at logge ind og begynde at bruge vores app, skal du vælge din login metode!"
+ui.login.teacher,Teacher,Teacher,Lærer,Lærer,教师,ครู,Lærer
+ui.login.student,Student,Student,Elev,Elev,学生,นักเรียน,Elev
+ui.login.enterEmailPlaceholder,Enter your Email,Enter your email,Skriv inn epostadressen din for å logge inn,Skriv inn epostadressen din for å logge inn,请输入您的电子邮件地址,ใส่อีเมลของคุณ,Indtast din mail
+ui.login.enterEmail,Enter your email to log in,Enter your email to log in,Skriv inn e-posten din for å logge inn,Skriv inn e-posten din for å logge inn,请使用您的电子邮件地址登录,ใส่อีเมลของคุณเพื่อเข้าสู่ระบบ,Indtast din mail for at logge ind
+ui.login.loginAsTeacher,Sign in as a teacher,Sign in as a teacher,Logg inn som lærer,Logg inn som lærer,以教师身份登录,ลงชื่อเข้าใช้ในฐานะครู,Log ind som lærer
+ui.login.enterData,Enter your username and password. Or please create an account.,Enter your username and password. Or please create an account.,Skriv inn ditt brukernavn og passord. Eller opprette en konto.,Skriv inn ditt brukernavn og passord. Eller opprette en konto.,请输入您的用户名和密码。或者请创建一个账户。,ใส่ชื่อผู้ใช้และรหัสผ่าน หรือโปรดสร้างบัญชี,Indtast brugernavn og adgangskode. Eller opret en konto.
+ui.login.joinOrLogin,Join or Login,Join or Login,Opprett konto eller logg inn,Opprett konto eller logg inn,注册或登录,เข้าร่วมหรือล็อกอิน,Tilmeld dig eller log ind
+ui.login.accountExist,This account exists,This account exists,Denne kontoen finnes,Denne kontoen finnes,该账户已存在,มีบัญชีนี้แล้ว,Denne konto findes allerede
+ui.login.accountNotExistTeacher,Profile not found.,Profile not found.,Profilen ikke funnet.,Profilen ikke funnet.,找不到個人資料。,ไม่พบโปรไฟล์,Profilen blev ikke fundet.
+ui.login.accountNotExist,Profile not found. Please create an account!,Profile not found. Please create an account!,Profil ikke funnet. Opprett en konto!,Profil ikke funnet. Opprett en konto!,未能找到您的档案。请创建一个账户!,ไม่พบโปรไฟล์ โปรดสร้างบัญชี!,Profilen blev ikke fundet. Opret en konto!
+ui.login.passwordPlaceholder,Enter your Password,Enter your Password,Oppgi passord,Oppgi passord,请输入密码,ใส่รหัสผ่าน,Angiv eller opret adgangskode
+ui.login.resetPassword,Reset Password,Reset Password,Tilbakestille passord,Tilbakestille passord,重置密码,รีเซ็ตรหัสผ่าน,Nulstil adgangskode
+ui.login.wrong,Error,Error,Feil,Feil,错误,ผิดพลาด,Fejl
+ui.login.createAccaunt,Create an Account,Create an Account,Opprett en konto,Opprett en konto,创建账户,สร้างบัญชี,Opret en konto
+ui.Subscription,Subscription,Subscription,Abonnement,Abonnement,订阅,การสมัครเป็นสมาชิก,Abonnement
+ui.subscriptionScreen.Purchase,Purchase,Purchase,Kjøp,Kjøp,购买,ซื้อ,Køb
+ui.subscriptionScreen.CancelAnyTime,Cancel anytime,Cancel anytime,Avbryt når som helst,Avbryt når som helst,随时取消,ยกเลิกตอนไหนก็ได้,Annuller når som helst
+ui.subscriptionScreen.TermsAndConditions,Terms and Conditions,Terms and Conditions,Vilkår og betingelser,Vilkår og betingelser,条款及细则,ข้อกำหนดและเงื่อนไข,Vilkår og betingelser
+ui.subscriptionScreen.PrivacyPolicy,Privacy Policy,Privacy Policy,Personvern,Personvern,私隐条款,นโยบายข้อมูลส่วนบุคคล,Fortrolighedspolitik
+ui.subscriptionScreen.EnterCode,Enter code,Enter code,Tast inn koden,Tast inn koden,请输入课程邀请码,รหัสข้อผิดพลาด,Angiv kode
+ui.subscriptionScreen.InviteCodeDescription,"To get access to the Library and assignment features, please enter your class code.","To get access to the Library and assignment features, please enter your Class invitation code.","For å få tilgang til biblioteket og lekser-funksjonen, vennligst skriv inn klassens invitasjonskode.","For å få tilgang til biblioteket og lekser-funksjonen, vennligst skriv inn klassens invitasjonskode.",要进入图书馆和作业功能，请输入课程邀请码。,เพื่อเข้าถึงห้องสมุดและฟีเจอร์ภารกิจรับมอบหมาย โปรดใส่รหัสชั้นเรียนของคุณ,"For at få adgang til biblioteket og opgavefunktionerne, skal du indtaste din klassekode."
+ui.subscriptionScreen.JoinClass,Join a class,Join a class,Bli med i en klasse,Bli med i en klasse,加入一个课程,เข้าร่วมในชั้นเรียน,Deltag i en klasse
+ui.subscriptionScreen.AccessManyBooks,Get access to 1300+ interactive books,Get access to 1300+ interactive books,Få tilgang til mer enn 1300 interaktive bøker,Få tilgang til mer enn 1300 interaktive bøker,阅读超过1300本互动书籍,รับการเข้าถึงหนังสือโต้ตอบได้ 1300 +เล่ม,Få adgang til mere end 1300 interaktive bøger
+ui.subscriptionScreen.SchoolSubjectsBooks,Fun STEM Books!,Fun STEM Books!,Morsomme faktabøker,Morsomme faktabøker,有趣的科学书籍,หนังสือ STEM แสนสนุก!,Sjove faktabøger!
+ui.subscriptionScreen.InteractiveBooks,Interactive Books,Interactive Books,Interaktive bøker,Interaktive bøker,互动图书,หนังสือโต้ตอบได้,Interaktive bøger
+ui.subscriptionScreen.BilledMonthly,Billed monthly,Billed monthly,faktureres månedlig,faktureres månedlig,按月结算,ส่งบิลรายเดือน,Faktureret månedligt
+ui.subscriptionScreen.Subscribe,Subscribe,Subscribe,Meld deg inn,Meld deg inn,订阅,สมัครเป็นสมาชิก,Tilmeld
+ui.subscriptionScreen.FirstName,First Name,First Name,Fornavn,Fornavn,名字,ชื่อต้น,Fornavn
+ui.subscriptionScreen.PrivacyPolicyLink,https://pickatale.co.uk/privacy-policy/,https://pickatale.co.uk/privacy-policy/,https://pickatale.no/personvern/,https://pickatale.no/personvern/,https://pickatale.co.uk/privacy-policy/,https://pickatale.co.uk/privacy-policy/,https://pickatale.co.uk/privacy-policy/
+ui.subscriptionScreen.TermsAndConditionsLink,https://pickatale.co.uk/terms-and-conditions/,https://pickatale.co.uk/terms-and-conditions/,https://pickatale.no/terms-and-conditions/,https://pickatale.no/terms-and-conditions/,https://pickatale.co.uk/terms-and-conditions/,https://pickatale.co.uk/terms-and-conditions/,https://pickatale.co.uk/terms-and-conditions/
+ui.Or,or,or,eller,eller,或,หรือ,eller
+ui.finish,Finish,Finish,Avslutt,Avslutt,完成,สิ้นสุด,Afslut
+ui.students,Students,Pupils,Elever,Elever,学生,นักเรียน,Elever
+ui.Code,Code,Code,Kode,Kode,代码,รหัส,Kode
+ui.avatarPopup.ChooseAvatar,Choose avatar,Choose avatar,Velg figur,Velg figur,选择头像,เลือกอวทาร์,Vælg avatar
+ui.connectClass.enterClassCode,Enter the class code.,Enter the class code.,Skriv inn klassekoden.,Skriv inn klassekoden.,请输入课程邀请码。,ใส่รหัสชั้นเรียน,Angiv klassekode.
+ui.joinClassScreen.JoinClass,Join the Class,Join the Class,Bli med i klassen,Bli med i klassen,加入课程,เข้าร่วมชั้นเรียน,Bliv medlem af klassen
+ui.joinClassScreen.EnterInfo,Enter your class code and your name.,Enter your class code and your name.,Skriv inn klassekoden og navnet ditt.,Skriv inn klassekoden og navnet ditt.,请输入您的课程代码和姓名。,ใส่รหัสชั้นเรียนและชื่อของคุณ,Indtast din klassekode og dit navn.
+ui.joinClassScreen.Alias,Alias,Alias,Alias,Alias,别名,นามแฝง,Alias
+ui.joinClassScreen.ClassCode,Class code,Class Code,Klassekoder,Klassekode,课程代码,รหัสชั้นเรียน,Klassekode
+ui.joinClassScreen.ClassCodePlaceholder,Enter Class Code,Enter Class Code,Skriv inn klassekode,Skriv inn klassekode,请输课程代码,ใส่รหัสชั้นเรียน,Angiv klassekode
+ui.joinClassScreen.FirstNamePlaceholder,Enter your first name,Enter your first name,Skriv inn ditt fornavn,Skriv inn ditt fornavn,请输入您的名子,ใส่ชื่อต้นของคุณ,Indtast dit fornavn
+ui.Join,Join,Join,Bli med,Bli med,加入,เข้าร่วม,Deltag
+ui.Skip,Skip,Skip,Hopp,Hopp,跳过,ข้าม,Videre
+ui.feedback.title,Feedback,Feedback,Tilbakemelding,Tilbakemelding,反饋,ข้อเสนอแนะ,Feedback
+ui.feedback.description,We are always striving for improvement and all your comments are important. Please rate your experience and tell us what we can do better!,We are always striving for improvement and all your comments are important. Please rate your experience and tell us what we can do better!,"Vi streber alltid etter forbedring, og alle kommentarene dine er viktige. Vurder din opplevelse og fortell oss hva vi kan gjøre bedre!","Vi streber alltid etter forbedring, og alle kommentarene dine er viktige. Vurder din opplevelse og fortell oss hva vi kan gjøre bedre!",我們一直在努力改進，您的所有評論都很重要。 請評價您的經驗，並告訴我們我們可以做得更好！,เราพยายามปรับปรุงอยู่เสมอและทุกความคิดเห็นของคุณมีความสำคัญ โปรดให้คะแนนประสบการณ์ของคุณและบอกเราว่าเราสามารถทำอะไรได้ดีกว่านี้!,"Vi stræber altid efter forbedring, og alle dine kommentarer er vigtige. Bedøm din oplevelse, og fortæl os, hvad vi kan gøre bedre!"
+ui.feedback.pleaseWrite,Please write your comments and suggestions,Please write your comments and suggestions,Vennligst skriv kommentarer og forslag,Vennligst skriv kommentarer og forslag,請寫下您的意見和建議,กรุณาเขียนความคิดเห็นและข้อเสนอแนะของคุณ,Skriv dine kommentarer og forslag
+ui.feedback.cancel,Cancel,Cancel,Avbryt,Avbryt,取消,ยกเลิก,Afbestille
+ui.feedback.bad,Bad,Bad,Dårlig,Dårlig,壞,ไม่ดี,Dårligt
+ui.feedback.notReally,Not Really,Not Really,Ikke egentlig,Ikke egentlig,並不是的,ไม่จริง,Ikke rigtig
+ui.feedback.good,Good,Good,Flink,Flink,好,ดี,Dodt
+ui.feedback.excellent,Excellent,Excellent,Utmerket,Utmerket,優秀的,ยอดเยี่ยม,Fremragende
+ui.feedback.happy,I'm happy,I'm happy,jeg er glad,jeg er glad,我很高興,ฉันมีความสุข,Jeg er glad
+ui.techPopup.noInternet,No internet connection. Please check your internet settings.,No internet connection. Please check your internet settings.,Ingen Internett-tilkobling. Kontroller nettverks-innstillingene dine.,Ingen Internett-tilkobling. Kontroller nettverks-innstillingene dine.,没有连接到网络，请检查您的网络设置,ไม่มีการเชื่อมต่ออินเทอร์เน็ต. โปรดตรวจสอบการตั้งค่าอินเทอร์เน็ตของคุณ,Ingen internetforbindelse. Tjek venligst dine internetindstillinger.
+ui.techPopup.slowInternet,Slow internet connection. Please check your internet settings.,Slow internet connection. Please check your internet settings.,Langsom internettforbindelse. Kontroller nettverks-innstillingene dine.,Langsom internettforbindelse. Kontroller nettverks-innstillingene dine.,网络连接过慢，请检查您的网络连接设置,การเชื่อมต่ออินเทอร์เน็ตช้า โปรดตรวจสอบการตั้งค่าอินเทอร์เน็ตของคุณ,Langsom internetforbindelse. Tjek venligst dine internetindstillinger.
+ui.techPopup.title,Technical Problem,Technical Problem,Tekniske problemer,Tekniske problemer,技术故障,ปัญหาทางเทคนิค,Teknisk problem
+ui.techPopup.serverProblems,Problems with server connection. Please try to repeat your request again.,Problems with server connection. Please try to repeat your request again.,Problemer med servertilkoblingen. Vennligst prøv igjen.,Problemer med servertilkoblingen. Vennligst prøv igjen.,服务器故障，请您稍后再重试。,ปัญหาเกี่ยวกับการเชื่อมต่อเซิร์ฟเวอร์ โปรดลองทำซ้ำคำขอของคุณอีกครั้ง,Problemer med serverforbindelse. Prøv venligst at gentage din anmodning igen.
+ui.techErrorPopup.describeProblem,"Please, describe your problem:","Please, describe your problem:",Vennligst beskriv problemet ditt,Vennligst beskriv problemet ditt,请描述您的问题：,โปรดอธิบายปัญหาของคุณ:,Beskriv venligst dit problem:
+ui.enterThroughtDeepLink,"Sorry, your session has expired - please login again using the Learning BOOKtique app.","Sorry, your session has expired - please login again using the Learning BOOKtique app.","Beklager, økten din er utløpt - vennligst logg inn igjen ved hjelp av Learning Booktique-appen.","Beklager, økten din er utløpt - vennligst logg inn igjen ved hjelp av Learning Booktique-appen.",对不起，您的会话已过期 - 请使用Learning Booktique应用程序再次登录。,ขออภัยเซสชันของคุณหมดอายุแล้ว - กรุณาเข้าสู่ระบบอีกครั้งโดยใช้แอพ Booktique การเรียนรู้,"Beklager, din session er udløbet - bedes du logge ind igen ved hjælp af The Learning Booktique App."
+ui.techUpdatePopup.UpdateRequired,Update Required,Update Required,Oppdatering kreves,Oppdatering kreves,需要更新,ต้องอัปเดตที่จำเป็น,Oppdatering kreves.
+ui.techUpdatePopup.Description.UpdateRequired,The current version of the app is no longer supported. Please visit the Store and update the app.,The current version of the app is no longer supported. Please visit the Store and update the app.,Den nåværende versjonen av appen støttes ikke lenger. Vennligst besøk butikken og oppdater appen.,Den nåværende versjonen av appen støttes ikke lenger. Vennligst besøk butikken og oppdater appen.,不再支持应用程序的当前版本。请访问商店并更新应用程序。,แอปเวอร์ชันปัจจุบันไม่รองรับอีกต่อไป กรุณาเยี่ยมชมร้านค้าและอัปเดตแอป,Den NÅVÆRETE VERSJONEN AV APPEN STØTTES IKKE LENGER. Vennligst Besøk Butikken og Oppdater Appen.
+ui.techUpdatePopup.Description.UpdateRecommend,The current version of the app is out of date. Please click the button below to visit the Store and update the app.,The current version of the app is out of date. Please click the button below to visit the Store and update the app.,Den nåværende versjonen av appen er utdatert. Vennligst klikk på knappen nedenfor for å besøke butikken og oppdatere appen.,Den nåværende versjonen av appen er utdatert. Vennligst klikk på knappen nedenfor for å besøke butikken og oppdatere appen.,该应用程序的当前版本已过期。请点击下面的按钮访问商店并更新应用程序。,แอปเวอร์ชันปัจจุบันล้าสมัย กรุณาคลิกที่ปุ่มด้านล่างเพื่อเยี่ยมชมร้านค้าและอัปเดตแอป,Den nådærende VersJonen Av Appen er Utdatert. VENNLIGST KLIKK PÅ KNAPPEN NEDENFOR FORÅ Å BESØKE BUTIKEN OG OPPDATERE APPEN.
+ui.techUpdatePopup.Description.OutOfSupport,The current version of the app will no longer be supported. Please click the button below to visit the Store and update the app.,The current version of the app will no longer be supported. Please click the button below to visit the Store and update the app.,Den nåværende versjonen av appen vil ikke lenger bli støttet. Vennligst klikk på knappen nedenfor for å besøke butikken og oppdatere appen.,Den nåværende versjonen av appen vil ikke lenger bli støttet. Vennligst klikk på knappen nedenfor for å besøke butikken og oppdatere appen.,将不再支持该应用程序的当前版本。请点击下面的按钮访问商店并更新应用程序。,แอปเวอร์ชันปัจจุบันจะไม่ได้รับการสนับสนุนอีกต่อไป กรุณาคลิกที่ปุ่มด้านล่างเพื่อเยี่ยมชมร้านค้าและอัปเดตแอป,Den nåværdre VersJonen Av Appen Vil Ikke Lenger Bli Støttet. VENNLIGST KLIKK PÅ KNAPPEN NEDENFOR FORÅ Å BESØKE BUTIKEN OG OPPDATERE APPEN.
+ui.techUpdatePopup.Update,Update,Update,Oppdater,Oppdater,更新,อัปเดต,Oppdater.
