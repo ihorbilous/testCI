@@ -1,4 +1,4 @@
-name: Pickatale CI -> (PC|Mac|Android|iOS)
+name: TestCI
 
 on: [push, pull_request]
 
@@ -25,18 +25,9 @@ jobs:
           path: Library
           key: Library-${{ matrix.targetPlatform }}
           restore-keys: Library-
-      - uses: game-ci/unity-builder@v2
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
-        with:
-          versioning: None
-          version: None
-          targetPlatform: ${{ matrix.targetPlatform }}
-          customParameters: -stackTraceLogType FULL -silent-crashes
-      - uses: actions/upload-artifact@v2
-        with:
-          name: Build-${{ matrix.targetPlatform }}
-          path: build/${{ matrix.targetPlatform }}
+
+      # Show the structure of folder      
+      - name: Display structure of downloaded files
+        run: ls -R
+        #working-directory: build/iOS
      
