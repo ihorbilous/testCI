@@ -77,19 +77,23 @@ jobs:
       #    targetPlatform: ${{ matrix.targetPlatform }}
       #    buildName: ${{ env.BUILD_NAME }} #'webglbuild'
       #    allowDirtyBuild: true   
-      - uses: actions/checkout@v1
 
       - run: echo hello > world.txt
 
-      - uses: actions/upload-artifact@v1
-        with:
-            name: my-artifact
-            path: world.txt
+      #- uses: actions/upload-artifact@v1
+      #  with:
+      #      name: my-artifact
+      #      path: world.txt
           
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.BUILD_NAME }} #Build-${{ matrix.targetPlatform }} webglbuild
+          path: world.txt
+
       #Upload artifacts    
       #- uses: actions/upload-artifact@v2
       #  with:
-      #    name: ${{ env.BUILD_NAME }} #Build-${{ matrix.targetPlatform }}
+      #    name: ${{ env.BUILD_NAME }} #Build-${{ matrix.targetPlatform }} webglbuild
       #    path: build/${{ matrix.targetPlatform }}
           
       # Show the structure of folder
@@ -113,7 +117,7 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@v2
         with:
-          name: my-artifact
+          name: webglbuild
           path: build/WebGL
           
       ## Upload to AWS     
@@ -155,16 +159,16 @@ jobs:
       #  with:
       #    lfs: true
     # Download artifacts    
-      - name: Download Artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: my-artifact
-          path: build/WebGL
+      #- name: Download Artifact
+      #  uses: actions/download-artifact@v2
+      #  with:
+      #    name: my-artifact
+      #    path: build/WebGL
     # Show the structure of folder
-      - name: Display structure of downloaded files
-        run: ls -R
+      #- name: Display structure of downloaded files
+      #  run: ls -R
         
       # delete-artifact
       - uses: geekyeggo/delete-artifact@v1
         with: 
-          name: my-artifact
+          name: webglbuild
