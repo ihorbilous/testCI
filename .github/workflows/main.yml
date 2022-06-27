@@ -150,10 +150,10 @@ jobs:
     needs: deployToServer
     steps:
     # Checkout
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          lfs: true
+      #- name: Checkout repository
+      #  uses: actions/checkout@v2
+      #  with:
+      #    lfs: true
     # Download artifacts    
       - name: Download Artifact
         uses: actions/download-artifact@v2
