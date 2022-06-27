@@ -158,13 +158,13 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@v2
         with:
-          name: webglbuild
+          name: my-artifact
           path: build/WebGL
     # Show the structure of folder
       - name: Display structure of downloaded files
         run: ls -R
         
-      # delete-artifact
-      - uses: geekyeggo/delete-artifact@v1
-        with: 
-          name: my-artifact
+      ## delete-artifact
+      #- uses: geekyeggo/delete-artifact@v1
+      #  with: 
+      #    name: my-artifact
