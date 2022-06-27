@@ -42,7 +42,7 @@ jobs:
   deletartifacts:
     name: Delete artifacts
     runs-on: ubuntu-latest
-    #needs: testAllModes
+    needs: buildForAllSupportedPlatforms
 
     steps:
       - uses: actions/checkout@v2
@@ -54,3 +54,8 @@ jobs:
       - name: Display structure of downloaded files
         run: ls -R
         #working-directory: build/iOS
+    
+     # delete-artifact
+      - uses: geekyeggo/delete-artifact@v1
+        with: 
+          name: my-artifact
