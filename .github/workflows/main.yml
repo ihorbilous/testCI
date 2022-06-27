@@ -164,7 +164,7 @@ jobs:
       - name: Display structure of downloaded files
         run: ls -R
         
-      ## delete-artifact
-      #- uses: geekyeggo/delete-artifact@v1
-      #  with: 
-      #    name: my-artifact
+      # delete-artifact
+      - uses: geekyeggo/delete-artifact@v1
+        with: 
+          name: my-artifact
